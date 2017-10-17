@@ -28,7 +28,7 @@ do
   cin >> fileName;
   image.open(fileName);
   validBmp = image.isImage();
-  if (validBmp == false)//tells you if you fucked up
+  if (validBmp == false)//tells you if you funked up
   {
     cout <<'\v'<<"This file can not be read."<<endl;
     cout << "The file must be an accesible 24 bit depth Windows BMP file." << endl;
