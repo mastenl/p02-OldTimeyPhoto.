@@ -98,7 +98,7 @@ int randomNum;
 
 image.fromPixelMatrix(bmp);
 
-image.save("filmGrain.bmp");
+image.save("oldTimey.bmp");
 cout << "end";
 }
 
